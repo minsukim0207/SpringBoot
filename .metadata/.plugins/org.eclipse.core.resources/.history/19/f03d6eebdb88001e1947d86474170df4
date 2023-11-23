@@ -1,0 +1,10 @@
+##### server port
+# server.port=8081
+
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521/xe
+spring.datasource.username=KHCAFE
+spring.datasource.password=KHCAFE
+
+#spring.mvc.view.prefix=
+#spring.mvc.view.suffix=

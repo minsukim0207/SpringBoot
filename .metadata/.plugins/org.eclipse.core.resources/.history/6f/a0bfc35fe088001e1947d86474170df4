@@ -1,0 +1,14 @@
+package com.kh.springdb;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringThymeleaf8Application {
+
+	@MapperScan(basePackages= {"com.kh.springdb.mapper"})
+	public static void main(String[] args) {
+		SpringApplication.run(SpringThymeleaf8Application.class, args);
+	}
+
+}
