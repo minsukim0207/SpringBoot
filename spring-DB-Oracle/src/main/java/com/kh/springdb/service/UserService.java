@@ -23,4 +23,9 @@ public class UserService {
 	public User getUserById(int id) {
 		return userMapper.getUserById(id);
 	}
+	
+	// 회원 저장
+	public void registerUser(User user) {
+		userMapper.insertUser(user);
+	}
 }

@@ -2421,3 +2421,153 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.mybatis.s
 2023-11-23 12:14:38,155 [Worker-241: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-11-23 12:14:38,156 [Worker-241: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-11-23 12:14:38,158 [Worker-241: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-23 14:01:17,225 [Worker-251: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-23 14:01:17,226 [Worker-251: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-23 14:01:17,230 [Worker-251: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-23 14:02:27,699 [Worker-254: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-23 14:02:27,700 [Worker-254: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-23 14:02:27,703 [Worker-254: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-23 14:04:48,457 [Worker-254: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-23 14:04:48,459 [Worker-254: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-23 14:04:48,462 [Worker-254: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-23 14:05:10,474 [Worker-254: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-23 14:05:10,476 [Worker-254: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-23 14:05:10,479 [Worker-254: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-23 14:14:08,949 [Worker-259: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-23 14:14:08,951 [Worker-259: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-23 14:14:08,954 [Worker-259: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-23 14:14:15,830 [Worker-260: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-23 14:14:15,831 [Worker-260: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-23 14:14:15,833 [Worker-260: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-23 14:14:38,963 [Worker-259: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-23 14:14:38,965 [Worker-259: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-23 14:14:38,968 [Worker-259: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-23 14:14:59,782 [Worker-260: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-23 14:14:59,783 [Worker-260: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-23 14:14:59,787 [Worker-260: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-23 14:15:53,191 [Worker-262: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-23 14:15:53,193 [Worker-262: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-23 14:15:53,195 [Worker-262: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-23 14:17:24,511 [Worker-259: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-23 14:17:24,513 [Worker-259: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-23 14:17:24,515 [Worker-259: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-23 17:51:10,494 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@36b3cd45{STOPPING}[10.0.15,sto=0]
+2023-11-23 17:51:10,499 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@5fed3bdb{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-11-23 17:51:10,506 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@382c9b5{/help,null,STOPPED}
+2023-11-24 08:48:00,463 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-24 09:15:06,413 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 09:15:06,427 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2023-11-24 09:15:06,433 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 09:16:10,862 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 09:16:10,867 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2023-11-24 09:16:10,871 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 09:16:24,837 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 09:16:24,843 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2023-11-24 09:16:24,847 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 09:16:47,317 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 09:16:47,350 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2023-11-24 09:16:47,354 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 09:17:01,208 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 09:17:01,211 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2023-11-24 09:17:01,215 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 09:20:11,749 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 09:20:11,752 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2023-11-24 09:20:11,756 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 09:26:17,760 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 09:26:17,762 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 09:26:17,765 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 09:35:11,084 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 09:35:11,087 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 09:35:11,091 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 09:36:21,370 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 09:36:21,371 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 09:36:21,374 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 09:38:59,335 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 09:38:59,337 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 09:38:59,341 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 09:39:42,920 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 09:39:42,922 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 09:39:42,925 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:02:20,067 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 10:02:20,068 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:02:20,071 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:02:25,273 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:02:25,278 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2023-11-24 10:02:25,282 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:03:45,614 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:03:45,620 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2023-11-24 10:03:45,623 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:05:00,625 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 10:05:00,627 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:05:00,631 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:06:46,565 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 10:06:46,566 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:06:46,569 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:16:13,814 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.9+9
+2023-11-24 10:16:13,844 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-11-24 10:16:13,870 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@247a33d4{/help,null,AVAILABLE}
+2023-11-24 10:16:13,892 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@737edf1b{HTTP/1.1, (http/1.1)}{127.0.0.1:59283}
+2023-11-24 10:16:13,904 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@3a481fec{STARTING}[10.0.15,sto=0] @5349207ms
+2023-11-24 10:23:29,772 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 10:23:29,775 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:23:29,779 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:24:47,953 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 10:24:47,955 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:24:47,958 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:24:56,389 [Worker-58: Launching spring-DB-Oracle - SpringThymeleaf8Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:24:56,403 [Worker-58: Launching spring-DB-Oracle - SpringThymeleaf8Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2023-11-24 10:24:56,409 [Worker-58: Launching spring-DB-Oracle - SpringThymeleaf8Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:26:44,487 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 10:26:44,488 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:26:44,491 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:29:03,489 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 10:29:03,491 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:29:03,495 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:29:19,449 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:29:19,453 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2023-11-24 10:29:19,456 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:31:52,146 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:31:52,150 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2023-11-24 10:31:52,153 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:42:38,382 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:42:38,385 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2023-11-24 10:42:38,389 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:42:52,984 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:42:52,987 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2023-11-24 10:42:52,991 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:43:03,513 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:43:03,516 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2023-11-24 10:43:03,520 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 10:43:12,615 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 10:43:12,619 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2023-11-24 10:43:12,623 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 11:02:00,573 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 11:02:00,574 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 11:02:00,578 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 11:06:35,385 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 11:06:35,386 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 11:06:35,389 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 12:33:09,093 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 12:33:09,101 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources from src\main\resources to target\classes
+2023-11-24 12:33:09,105 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 12:34:06,209 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 12:34:06,215 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources from src\main\resources to target\classes
+2023-11-24 12:34:06,220 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 12:34:20,168 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 12:34:20,170 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 12:34:20,173 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 12:34:55,369 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 12:34:55,371 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 12:34:55,374 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 12:36:21,101 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 12:36:21,103 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 12:36:21,105 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 12:37:29,261 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 12:37:29,263 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 12:37:29,266 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 12:45:25,405 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-24 12:45:25,406 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-24 12:45:25,409 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\springBoot-workspace\spring-DB-Oracle\src\test\resources
+2023-11-24 12:50:20,574 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@3a481fec{STOPPING}[10.0.15,sto=0]
+2023-11-24 12:50:20,588 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@737edf1b{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-11-24 12:50:20,618 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@247a33d4{/help,null,STOPPED}

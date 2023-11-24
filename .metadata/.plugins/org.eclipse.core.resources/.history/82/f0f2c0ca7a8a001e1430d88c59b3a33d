@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Register Success</title>
+</head>
+<body>
+	<h1>Success</h1>
+	<a th:href="@{/}"><button>return to home</button></a>
+</body>
+</html>

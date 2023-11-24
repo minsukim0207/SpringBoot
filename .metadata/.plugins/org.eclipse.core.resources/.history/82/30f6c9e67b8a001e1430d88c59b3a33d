@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Register Success</title>
+</head>
+<body>
+	<h1>Success</h1>
+	<a th:href="@{/}"><button>return to home</button></a>
+</body>
+</html>
+
+<!--
+	@{/}
+	기본적으로 localhost:8080/ 기본 경로는 / 이기 때문에 @{/} 는 localhost:8080/ 과 동일한 위치를 가짐
+-->
