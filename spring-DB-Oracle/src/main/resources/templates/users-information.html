@@ -13,6 +13,9 @@
 				<th>name</th>
 				<th>email</th>
 				<th>birth</th>
+				<th>상세</th>
+				<th>수정</th>
+				<th>삭제</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -21,7 +24,9 @@
 				<td th:text="${user.mname}"></td>
 				<td th:text="${user.memail}"></td>
 				<td th:text="${user.mbirth}"></td>
-				<td><a th:href="@{/user-information/{id}(id = ${user.mno})}">상세</a></td>
+				<td><a th:href="@{'/user-information/'+${user.mno}}">상세</a></td>
+				<td><a th:href="@{'/user-update/'+${user.mno}}">수정</a></td>
+				<td><a th:href="@{'/user-delete/'+${user.mno}}">삭제</a></td>
 			</tr>
 		</tbody>
 	</table>

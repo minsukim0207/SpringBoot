@@ -16,4 +16,10 @@ public interface UserMapper {
 	User getUserById(int id);
 	
 	void insertUser(User user);
+	
+	// user 정보 수정 메서드
+	void updateUser(User user);
+	
+	// User 정보 삭제
+	void deleteUser(int mno);
 }

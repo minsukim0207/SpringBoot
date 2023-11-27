@@ -1,0 +1,7 @@
+package com.kh.springdb.model;
+
+public interface BoardMapper {
+	
+	
+
+}

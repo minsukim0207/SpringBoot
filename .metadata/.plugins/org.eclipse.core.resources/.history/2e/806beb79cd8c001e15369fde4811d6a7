@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>유저 정보 조회</title>
+</head>
+<body>
+	<h1>A user info</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>name</th>
+				<th>email</th>
+				<th>birth</th>
+				<th>Update</th>
+				<th>Delete</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:if="${user}">
+				<td th:text="${user.mno}"></td>
+				<td th:text="${user.mname}"></td>
+				<td th:text="${user.memail}"></td>
+				<td th:text="${user.mbirth}"></td>
+				<td th:text="@{/api/user-update/{id}(id = ${user.mno})}">Update</td>
+				<td th:text="@{/user-delete/{id}(id = ${user.mno})}">Delete</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

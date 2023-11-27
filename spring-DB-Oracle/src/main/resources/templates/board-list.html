@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>게시물 목록 보기</title>
+<link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}">
+</head>
+<body>
+	<h2>게시물 목록 보기</h2>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>제목</th>
+				<th>글쓴이</th>
+				<th>↓↓↓ Click ↓↓↓</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="board : ${boards}">
+				<td th:text="${board.boardId}"></td>
+				<td th:text="${board.title}"></td>
+				<td th:text="${board.author}"></td>
+				<td>
+					<a th:href="@{/boards/{id}(id=${board.boardId})}">View</a>
+					<a th:href="@{/boards/update/{id}(id=${board.boardId})}">Update</a>
+					<a th:href="@{/boards/delete/{id}(id=${board.boardId})}">Delete</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<a th:href="@{/boards/create}">게시글 작성</a>
+	<a th:href="@{/boards/delete-all-boards}" onclick="showAlert()">모두 삭제</a>
+	<script>
+		function showAlert() {
+			var checkDelete = confirm('정말 모든 게시물 삭제?');
+			if (checkDelete) {
+				alert('게시물 삭제 완료');
+			} else {
+				alert('취소');
+			}
+		}
+	</script>
+</body>
+</html>

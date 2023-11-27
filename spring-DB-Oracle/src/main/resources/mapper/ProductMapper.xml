@@ -10,4 +10,6 @@
 	<select id="getAllProducts" resultType="com.kh.springdb.model.Product">
 		SELECT * FROM products	<!-- 마지막에 세미콜론 사용 안함 -->
 	</select>
+	
+
 </mapper>
