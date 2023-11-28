@@ -31,13 +31,15 @@
 	</table>
 	<a th:href="@{/boards/create}">게시글 작성</a>
 	<a th:href="@{/boards/delete-all-boards}" onclick="showAlert()">모두 삭제</a>
+	<a th:href="@{/}">Main Page</a>
 	<script>
 		function showAlert() {
 			var checkDelete = confirm('정말 모든 게시물 삭제?');
-			if (checkDelete) {
+			if (checkDelete == true) {
 				alert('게시물 삭제 완료');
 			} else {
 				alert('취소');
+				return false;
 			}
 		}
 	</script>

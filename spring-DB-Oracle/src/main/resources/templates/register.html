@@ -3,6 +3,7 @@
 <head>
 <meta charset="EUC-KR">
 <title>Sign up</title>
+<link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}">
 </head>
 <body>
 	<form th:action="@{/api/user/register}" method="post" th:object="${user}">
@@ -16,6 +17,7 @@
 		<input type="date" id="mbirth" name="mbirth" th:field="*{mbirth}" required>
 		<button type="submit">가입하기</button>
 	</form>
+	<a th:href="@{/}">Main Page</a>
 </body>
 </html>
 
