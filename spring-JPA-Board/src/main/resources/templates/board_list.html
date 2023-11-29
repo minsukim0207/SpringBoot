@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>Board List</title>
+<script th:inline="javascript">
+	function checkDelete() {
+		var checkDelete = confirm("삭제?");
+		if (checkDelete) {
+			window.location.href='/boards/delete/all';
+		} else {
+			alert("취소");
+		}
+	}
+</script>
+</head>
+<body>
+	<h2>Board List</h2>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Title</th>
+				<th>Author</th>
+				<th>Click</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="board : ${boards}">
+				<td th:text="${board.boardId}"></td>
+				<td th:text="${board.title}"></td>
+				<td th:text="${board.author}"></td>
+				<td><a th:href="@{/boards/details/{boardId}(id=${board.boardId})}">View Details</a></td>
+				<td><a th:href="@{/boards/update/{boardId}(id=${board.boardId})}">Update Details</a></td>
+				<td><a th:href="@{/boards/delete/{boardId}(id=${board.boardId})}">Delete</a></td>
+			</tr>
+		</tbody>
+	</table>
+	<a th:href="@{/boards/new}">Add New Board</a>
+	<a th:href="@{/boards/delete/all}">Delete All</a>
+	<a href="#" th:onclick="checkDelete()">Delete All</a>
+</body>
+</html>
