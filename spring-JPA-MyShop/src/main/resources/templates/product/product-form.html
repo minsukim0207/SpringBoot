@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>Join Form</title>
+</head>
+<body>
+	<form th:action="@{/products/new}" th:object="${product}" method="post">
+		<label>이름 : </label>
+		<input type="text" th:field="*{name}" required/><br>
+		<label>카테고리 : </label>
+		<input type="text" th:field="*{category}" required/><br>
+		<label>가격 : </label>
+		<input type="text" th:field="*{price}" required/><br>
+		<label>수량 : </label>
+		<input type="text" th:field="*{stockQuantity}" required/><br>
+		<label>상세 : </label>
+		<input type="text" th:field="*{description}" required/><br>
+		<button type="submit">상품등록</button>
+	</form>
+</body>
+</html>

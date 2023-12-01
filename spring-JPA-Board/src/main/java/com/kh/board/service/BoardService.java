@@ -41,4 +41,9 @@ public class BoardService {
 	public void deleteAllBoards() {
 		boardRepository.deleteAll();
 	}
+	
+	// 특정 검색어로 검색
+	public List<Board> findBoardsByTitle(String keyword) {
+		return boardRepository.findTitle(keyword);
+	}
 }

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1">
+		<tbody>
+			<tr th:each="cafe : ${cafes}"></tr>
+				<td th:text="${cafe.cafeId}"></td>
+				<td th:text="${cafe.name}"></td>
+				<td th:text="${cafe.location}"></td>
+				<td th:text="${cafe.openingHours}"></td>
+		</tbody>
+	</table>
+</body>
+</html>

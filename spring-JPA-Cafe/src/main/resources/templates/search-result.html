@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlna:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>Search Result</title>
+</head>
+<body>
+	<h2>Search Result</h2>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Location</th>
+				<th>Opening Hours</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="cafe : ${cafes}">
+				<td th:text="${cafes.cafeId}"></td>
+				<td th:text="${cafes.name}"></td>
+				<td th:text="${cafes.location}"></td>
+				<td th:text="${cafes.openingHours}"></td>
+			</tr>
+		</tbody>
+	</table>
+	<a th:href="@{/cafes}">Return</a>
+</body>
+</html>

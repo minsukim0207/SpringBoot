@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>Shopping mall</title>
+</head>
+<body>
+	<h2>환영</h2>
+	<div>
+		<th:block th:if="${loginMember} != null">
+		<p>로그아웃</p>
+		</th:block>
+		<th:block th:unless="${loginMember} != null">
+		<form>
+			<input type="email" name="email" placeholder="Input email" required/>
+			<input type="password" name="password" placeholder="Input password" required/>
+			<button type="submit">로그인</button>
+		</form>
+		</th:block>
+		<a th:href="@{/members/new}">회원가입</a>
+	</div>
+	<img src="img/banner.png"/>
+	<div>쇼핑 리스트</div>
+</body>
+</html>

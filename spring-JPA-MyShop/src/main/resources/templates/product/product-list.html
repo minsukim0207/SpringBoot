@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>Procut List</title>
+</head>
+<body>
+	<h2>Product List</h2>
+	<a th:href="@{/products/new}">Register Product</a>
+	<table border="1">
+		<tr th:each="product : ${products}"></tr>
+	</table>
+	<table border="1">
+		<thead>
+		<tr>
+			<th>Id</th>
+			<th>Category</th>
+			<th>Price</th>
+			<th>Name</th>
+			<th>Stock Quantity</th>
+			<th>Detail</th>
+			<th>Update</th>
+			<th>Cart</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr th:each="product : ${products}">
+			<td th:text="${product.id}"></td>
+			<td th:text="${product.category}"></td>
+			<td th:text="${product.productName}"></td>
+			<td th:text="${product.price}"></td>
+			<td th:text="${product.stockQuantity}"></td>
+			<td th:text="${product.description}"></td>
+			<td>
+				<a th:href="@{|/products/${product.id}|}">Detail</a>
+				<a th:href="@{|/products/update/${product.id}|}">Update</a>
+				<a th:href="@{|/products/delete/${product.id}|}">Delete</a>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+</body>
+</html>
