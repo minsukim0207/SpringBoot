@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>Customer Form</title>
+</head>
+<body>
+	<h2>Customer Form</h2>
+	<form th:action="@{/customers/new}" th:object="${customer}" method="post">
+		<label>name</label>
+		<input type="text" th:field="*{name}" required>
+		<label>pw</label>
+		<input type="text" th:field="*{password}" required>
+		<label>email</label>
+		<input type="text" th:field="*{email}" required>
+		<button type="submit">register</button>
+	</form>
+</body>
+</html>
