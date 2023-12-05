@@ -48,4 +48,50 @@ public class Product {
  *  데이터베이스 자체에서 자동으로 값이 증가할 수 있도록 자동생성이 들어있는 경우 아래 사용
  *  새로운 레코드가 삽입될 때마다 데이터베이스가 자동으로 기본키의 값을 증가시킴
  *  @GeneratedValue(strategy = GenerationType.IDENTITY)
+ *  
+ *  Lombok
+ *  @Builder : 객체를 생성할 때 매개변수의 순서나 개수에 관계없이 보기 편할 수 있도록 객체를 생성할 수 있게 도와주는 메서드
+ *  @AllArgsConstructor : 모든 필드를 용하는 생성자를 생성
+ *  					ex)
+ *  					@AllArgsConstructor
+ *  					public class Student {
+ *  						private String name;	// new Student("학생명", 3);
+ *  						private int grade;
+ *  					}
+ *  @NoArgsConstructor : 매개변수가 없는 기본 생성자를 생성
+ *  					ex)
+ *  					@NoArgsConstructor
+ *  					public class School {
+ *  												// new Student();
+ *  					}
+ *  @RequiredArgsConstructor : 필수로 초기화해야하는 final 필드나 @NotNull로 표시된 필드를 사용하는 생성자를 자동으로 생성
+ *  							ex)
+ *  							@RequiredArgsConstructor
+ *  							public class Student() {
+ *  								private final String name;
+ *  								private final int grade;
+ *  								private String address;
+ *  							}
+ *  							name, grade는 생성자에 포함되지만 address는 포함되지 않음
+ *  							다른 곳에서 Student 객체를 불러올 때
+ *  							Student st = new Student("이름", 5);	// address는 넣어주지 않아도 됨
+ *  JPA 어노테이션
+ *  @Prepersist : 엔티티가 데이터베이스에 저장되기 전에 호출되는 메서드를 지정
+ *  			  엔티티에 필요한 사전 처리 작업을 수행하는데 많이 사용
+ *  			ex)
+ *  			@Entity
+ *  			public class TestEntity {
+ *  				@Id
+ *  				private Long id;
+ *  				private String name;
+ *  				@DateTimeFormat(pattern="yyyy-mm-dd")
+ *  				private Date createDate;	// now() 메서드로 현재 시간 입력
+ *  				@Prepersist
+ *  				private void preWork() {
+ *  					// 저장 전 수행할 작업
+ *  					// 생성일자 설정, 특정 필드 초기화
+ *  				@Prepersist
+ *  				private void createDate() {
+ *						this.createDate = LocalDate.now();  					
+ *  						
  */
