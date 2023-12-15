@@ -47,4 +47,13 @@ public class ProductService {
 	public Product getProductById(int id) {
 		return productRepository.findProductById(id);
 	}
+	
+	// 좋아요
+	public void likeProduct(int productId) {
+		Product product = productRepository.findById(productId).orElse(null);
+		if (product != null) {
+			product.setLikes(product.getLikes() + 1);
+			productRepository.save(product);
+		}
+	}
 }

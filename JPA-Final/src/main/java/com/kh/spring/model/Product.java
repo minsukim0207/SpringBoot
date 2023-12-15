@@ -12,7 +12,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.SequenceGenerator;
-import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -25,13 +24,12 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name="Products")
 public class Product {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="product_seq")
 	@SequenceGenerator(name="product_seq", sequenceName="product_seq", allocationSize=1)
-	private int id;
+	private int productId;
 	
 	private String name;
 	private String text;
@@ -39,7 +37,7 @@ public class Product {
 	private int count;
 	private int stock;
 	private int isSoldout;
-	@OneToMany(mappedBy="Products", cascade=CascadeType.ALL)
+	@OneToMany(mappedBy="product", cascade=CascadeType.ALL)
 	private List<Comment> comments;
 	private String imgName;
 	private String imgPath;
@@ -49,4 +47,10 @@ public class Product {
 	public void createDate() {
 		this.createDate = LocalDate.now();
 	}
+	
+	// 상품 좋아요 클릭해서 횟수 증가
+	private int likes;
+	// 카운트 방법
+	// 1. 사용자 관계없이 카운트만 올리기
+	// 2. ManyToOne이나 OneToMany 이용해서 서로 카운트 주기
 }

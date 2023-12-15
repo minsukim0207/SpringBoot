@@ -18,6 +18,13 @@
 			<span th:text="${product.name}"></span><br>
 			<label>가격 : </label>
 			<span th:text="${product.price}"></span><br>
+			<button th:if="${#authorization.expression('isAuthenticated()')}" th:onclick="'likeProduct(' + ${product.id} + ')" type="button">좋아요</button>
+			<span th:text="${product.likes}"></span><br>
+			<script>
+				function likeProduct(productId) {
+					alert('좋아요를 누르셨습니다.' + productId);
+				}
+			</script>
 			<a th:href="@{'/product/detail/' + ${product.id}}">상세보기</a>
 			
 			<!-- 장바구니에 담기 버튼 -->

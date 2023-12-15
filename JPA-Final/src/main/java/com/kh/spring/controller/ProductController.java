@@ -82,4 +82,11 @@ public class ProductController {
 		commentService.addComment(productId, commentContent);
 		return "redirect:/product/detail/";
 	}
+	
+	// 좋아요 한 내용 받아줄 수 있게 PostMapping
+	@PostMapping
+	public String likeProduct(int productId) {
+		productService.likeProduct(productId);
+		return "redirect:/list";
+	}
 }
